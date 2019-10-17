@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-stylesheet type="text/css" href="mystyle.css"?>
+<!DOCTYPE demo [
+<!ELEMENT demo (body)>
+<!ELEMENT body (#PCDATA)>
+]>
+<demo>
+<body>Hello world</body>
+</demo>

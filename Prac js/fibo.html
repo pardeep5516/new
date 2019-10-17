@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fibonacci series</title>
+</head>
+
+<body>
+    <script>
+        var a = 0;
+        var b = 1;
+        var c;
+        var num = prompt('enter your number:');
+        for (var i = 0; i <= num; i++) {
+            c = a + b;
+            a = b;
+            b = c;
+            document.write(c + "<br>");
+        }
+    </script>
+</body>
+
+</html>
